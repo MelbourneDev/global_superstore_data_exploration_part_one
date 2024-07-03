@@ -38,11 +38,11 @@ The `schema.sql` file creates the database and inserts data into the tables. It 
 - **shipping_addresses**: Stores shipping address details including country, state, and city.
 
 ## Queries
-The `queries.sql` file includes various SQL queries used for cleaning data and exploring the dataset. Key queries include:
+The `queries.sql` file includes various SQL queries used for cleaning data and exploring the dataset. 
 
 ## Usage
 To use this project, follow these steps:
-1. Clone the repository: `git clone https://github.com/yourusername/globalsuperstore-analysis.git`
+1. Clone the repository: `git clone https://github.com/MelbourneDev/global_superstore_data_exploration_part_one`
 2. Set up the database using the `schema.sql` file:
    ```bash
    psql -U yourusername -d yourdatabase -f schema.sql
